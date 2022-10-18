@@ -30,7 +30,7 @@ app.use("/Welcome",(req,res)=>{
 
 app.use("/user", routes)
 
-const uri = "mongodb+srv://Chowdhurykalyan96:Welcome%40518@cluster0.r8mzlej.mongodb.net/EmployeeNodejs?retryWrites=true&w=majority"
+//const uri = "mongodb+srv://Chowdhurykalyan96:Welcome%40518@cluster0.r8mzlej.mongodb.net/EmployeeNodejs?retryWrites=true&w=majority"
 mongoose.
     connect(uri,{useNewUrlParser:true}).
     then(() => {console.log("Database Connected")}).
